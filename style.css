@@ -1,0 +1,206 @@
+:root {
+  --primary-color: #3fc0c3;
+  --overlay-bg: #000000;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.my-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.btn {
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-light {
+  color: var(--primary-color) !important;
+}
+
+.btn-light:hover {
+  background-color: transparent;
+  color: #ffffff !important;
+  border-color: #ffffff;
+}
+
+.btn-large {
+  padding: 15px 20px;
+  font-size: 1.2em;
+}
+
+.feature-card {
+  min-height: 300px;
+  margin-bottom: 30px;
+}
+
+.feature-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-card .card-body img {
+  margin-bottom: 30px;
+  width: 100px;
+}
+
+@media (max-width: 576px) {
+  .feature-card {
+    min-height: 170px;
+  }
+
+  .feature-card .card-body img {
+    width: 50px;
+  }
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+  font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 700;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.home-banner {
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-blend-mode: multiply;
+}
+
+@media (max-width: 576px) {
+  .home-banner {
+    min-height: 400px;
+  }
+}
+.solutions {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.solutions .card {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.solutions img {
+  margin-bottom: 20px;
+}
+
+.advantages img {
+  margin-bottom: 10px;
+}
+
+.page-header {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-banner {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.primary-title {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.contact h3 {
+  color: var(--primary-color) !important;
+}
+
+.contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact ul li {
+  margin-bottom: 15px;
+}
+
+.contact ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+.site-footer .cta {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.site-footer .colophon {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.site-footer .footer-logo {
+  max-width: 200px;
+  margin-bottom: 15px;
+}
+
+.site-footer h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.site-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer .footer-social-list {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.site-footer .footer-social-list li {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.site-footer .copyright {
+  font-weight: 300;
+}
+
+.site-footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
